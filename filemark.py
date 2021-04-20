@@ -1,0 +1,10 @@
+mark= open("mark1.text","a+")
+a=int(input("Enter the English Mark:"))
+b=int(input("Enter the Tamil Mark:"))
+c=int(input("Enter the  Maths Mark:"))
+mark.write (str(a))
+mark.write(str(b))
+mark.write(str(c))
+d=a+b+c
+mark.write(str(d))
+mark.close()
